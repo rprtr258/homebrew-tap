@@ -1,9 +1,9 @@
 class Apiary < Formula
   desc "Desktop app for managing API requests"
   homepage "https://github.com/rprtr258/apiary"
-  version "0.0.8"
+  version "0.0.9"
   url "https://github.com/rprtr258/apiary/releases/download/v#{version}/apiary-linux-x86_64.AppImage"
-  sha256 "f91a22f910bf06c21a7b3d3e612e6653d81c2e634966f4a1dcb218ad4ae535e0"
+  sha256 "30df083ce4ab4654e70031c398d2afa6e32313e913b124ea90074801a54216d8"
 
   depends_on :linux
   depends_on arch: :x86_64
