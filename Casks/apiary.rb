@@ -5,10 +5,10 @@ cask "apiary" do
   name "apiary"
   desc "Desktop app for managing API requests"
   homepage "https://github.com/rprtr258/apiary"
-  version "0.0.12"
-  sha256 arm:          "58dc00b546424580d72d4db1da6774fe304af5ca87fe42e28d95b16e2532f325",
-         intel:        "74e30a943847686c0091975923095d284c35e44b5778dbbba2c5d894283f236b",
-         x86_64_linux: "7160364c9f4305754d3a1baf1d28b730d2a6dc2181cf4d061d253743704c7f81"
+  version "0.0.13"
+  sha256 arm:          "fc57cfa0459cfecd5e017e095cd7deb45e57bb5ad33d60062adbd3800b95b4b9",
+         intel:        "f30cb93a1c3d13fc3021be74bd25613dbca08197bbfb8dc1fa8007e63b0be6fb",
+         x86_64_linux: "9219cba88ab249d7d74c67a2862d59f4494a860bd2eae86118d08acd42018042"
   arch arm: "darwin-arm64", intel: on_system_conditional(macos: "darwin-x64", linux: "linux-x86_64")
   os macos: "dmg", linux: "AppImage"
   url "https://github.com/rprtr258/apiary/releases/download/v#{version}/apiary-#{arch}.#{os}"
